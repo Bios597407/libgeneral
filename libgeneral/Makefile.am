@@ -2,7 +2,6 @@ AM_CFLAGS = -I$(top_srcdir)/include $(GLOBAL_CFLAGS)
 AM_CXXFLAGS = $(AM_CFLAGS) $(GLOBAL_CXXFLAGS)
 AM_LDFLAGS =
 
-
 lib_LTLIBRARIES = libgeneral.la
 
 libgeneral_la_CFLAGS = $(AM_CFLAGS)
